@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="row return">
+      <a href="..">Back to home</a>
+    </div>
+    <div class="row">
+      <!-- Don't use a <form> tag, that can refresh the page -->
+      <fieldset>
+        <legend>Input box</legend>
+        <input type="text" id="txtbox">
+        <button onclick="btnClick()">Send it!</button>
+      </fieldset>
+      <p id="outputtxt">Output will replace this text</p>
+    </div>
+  </div>
+</body>
+<script src="input.js"></script>
+</html>
