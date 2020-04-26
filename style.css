@@ -25,7 +25,7 @@ body {
 }
 
 .banner {
-  background-image: url(/images/anime-glasses-wide.jpg);
+  background-image: url(images/anime-glasses-wide.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
